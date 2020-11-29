@@ -1,0 +1,16 @@
+PODS:
+  - DonutNetworking (0.1.0)
+
+DEPENDENCIES:
+  - DonutNetworking (from `../`)
+
+EXTERNAL SOURCES:
+  DonutNetworking:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DonutNetworking: 6f4e58a56d49b3fae96c6e124f8915626c71a61f
+
+PODFILE CHECKSUM: 214f6d6affbc8e53fe0060e6f31cd91fc2728035
+
+COCOAPODS: 1.9.3

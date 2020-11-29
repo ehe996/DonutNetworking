@@ -1,0 +1,6 @@
+framework module DonutNetworking {
+  umbrella header "DonutNetworking-umbrella.h"
+
+  export *
+  module * { export * }
+}
