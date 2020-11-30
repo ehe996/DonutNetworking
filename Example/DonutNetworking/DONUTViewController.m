@@ -7,6 +7,8 @@
 //
 
 #import "DONUTViewController.h"
+#import <DNNetWorking.h>
+#import <DonutNetworking.h>
 
 @interface DONUTViewController ()
 
@@ -18,6 +20,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    DNNetWorking *net = [DNNetWorking new];
+    [net logTest];
+    
+    DonutNetworking *net2 = [DonutNetworking new];
+    [net2 logTest];
 }
 
 - (void)didReceiveMemoryWarning

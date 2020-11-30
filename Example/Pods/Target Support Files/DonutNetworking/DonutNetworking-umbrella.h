@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "DNNetWorking.h"
+#import "DonutNetworking.h"
 
 FOUNDATION_EXPORT double DonutNetworkingVersionNumber;
 FOUNDATION_EXPORT const unsigned char DonutNetworkingVersionString[];

@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A4F7ED72573990800CA86AF /* DNNetWorking.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A4F7ED52573990800CA86AF /* DNNetWorking.h */; };
-		1A4F7ED82573990800CA86AF /* DNNetWorking.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4F7ED62573990800CA86AF /* DNNetWorking.m */; };
+		00E241CDB0C9BE0FC8D5B6709A4FC1F9 /* DonutNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 097E51DF1F1CBC01E6EF8F18CCF99C75 /* DonutNetworking-dummy.m */; };
+		068661908C66ABDB71CD6B609B105246 /* DonutNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EB77CAC7185436FF9C9FC3016BDB87B /* DonutNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		250EB6B72FDF8F39B114651741BB3E26 /* DonutNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E53EC8D80CBDB47F07FD4C8A8E9D18B /* DonutNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DF348A6D99AC2644F0AAA5F8196468E /* DNNetWorking.h in Headers */ = {isa = PBXBuildFile; fileRef = 34EB72A294E1601CF938AFF59E3424D8 /* DNNetWorking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		342A2C5CA9898DEB20168C273F1EEAE2 /* Pods-DonutNetworking_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 163F5B7175F6983C2F3A8086560DA8BA /* Pods-DonutNetworking_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		552E6094BDD6479BE64790E940B713C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		6DD1F5E5D89D50949735F71DF43FC0F1 /* DonutNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2C1FCF11C2851E20785A4B04A6AF0F6 /* DonutNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F965579ECA7CBB297FCEF29E9A6CD08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		B91D6A6EA7FDE6E9DCC9DAAC47F9FFC9 /* DonutNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C60CB9617B480D7CD09BD95A540CD89 /* DonutNetworking-dummy.m */; };
+		7B0564150ADA27EAFCB2229205774843 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A4AAF13552DBF1388A61DB357AB654BF /* DonutNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 990347A34EA1E493C3E83483BA85C4A6 /* DonutNetworking.m */; };
 		C8A4FB4A9D7AD7B7A4AAE97091373D6F /* Pods-DonutNetworking_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 82B18710B4AE360209D6D675D2572E50 /* Pods-DonutNetworking_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C99DF29FD72270B303625525C6B44F58 /* Pods-DonutNetworking_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3BF7E50B896680D3D7BC7770E9E2944 /* Pods-DonutNetworking_Tests-dummy.m */; };
 		D618BFF5E84A0EB63D26D8855A3BBB48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		DA70714F99D56B409CC4DE7A58040BA6 /* Pods-DonutNetworking_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 657C1D4AED0CCD529ED23BF8D5D02E75 /* Pods-DonutNetworking_Example-dummy.m */; };
+		F9690B2A37DD1274F2CEA5896ED4A9FC /* DNNetWorking.m in Sources */ = {isa = PBXBuildFile; fileRef = F64D303882FFBC8442AC1E916A9A9D67 /* DNNetWorking.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,55 +41,57 @@
 
 /* Begin PBXFileReference section */
 		03A0301AD831046E0FB0FAFBCE6D6D9C /* Pods-DonutNetworking_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DonutNetworking_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		061E7CEA76B8B4E3AFA60CB45AE99855 /* DonutNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DonutNetworking-prefix.pch"; sourceTree = "<group>"; };
 		089EE2D3D4A69CFBFA41DB54DA4AA411 /* Pods-DonutNetworking_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DonutNetworking_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		097E51DF1F1CBC01E6EF8F18CCF99C75 /* DonutNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DonutNetworking-dummy.m"; sourceTree = "<group>"; };
 		163F5B7175F6983C2F3A8086560DA8BA /* Pods-DonutNetworking_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DonutNetworking_Example-umbrella.h"; sourceTree = "<group>"; };
-		1A4F7ED52573990800CA86AF /* DNNetWorking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DNNetWorking.h; sourceTree = "<group>"; };
-		1A4F7ED62573990800CA86AF /* DNNetWorking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DNNetWorking.m; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		34EB72A294E1601CF938AFF59E3424D8 /* DNNetWorking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DNNetWorking.h; path = DonutNetworking/Classes/DNNetWorking.h; sourceTree = "<group>"; };
+		39DDD5FEC24DEC078B89E0BA0D026676 /* DonutNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DonutNetworking.debug.xcconfig; sourceTree = "<group>"; };
 		402D9206723A50E76ECE8695A0CBAF17 /* Pods-DonutNetworking_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DonutNetworking_Example-frameworks.sh"; sourceTree = "<group>"; };
-		4360D52CF37CDA6381A0E01BD7D62657 /* DonutNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DonutNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		46FDEFAC0206514CBA1C8F8F97633649 /* Pods_DonutNetworking_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DonutNetworking_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4360D52CF37CDA6381A0E01BD7D62657 /* DonutNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DonutNetworking.framework; path = DonutNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46FDEFAC0206514CBA1C8F8F97633649 /* Pods_DonutNetworking_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DonutNetworking_Example.framework; path = "Pods-DonutNetworking_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47F1E0E72FF9BFE798D8116CA1C7343C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4B2C8FC46CFB115C3EE4D9D3DFA2E0E2 /* DonutNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DonutNetworking.modulemap; sourceTree = "<group>"; };
+		4B4F5CE466BAFE8CACC8659463EB773B /* DonutNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DonutNetworking-Info.plist"; sourceTree = "<group>"; };
 		5B73C506CB7AC860F5F53C66CC4AD89F /* Pods-DonutNetworking_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DonutNetworking_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5D891127A399928424AF67A624FD7DCB /* Pods-DonutNetworking_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DonutNetworking_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		657C1D4AED0CCD529ED23BF8D5D02E75 /* Pods-DonutNetworking_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DonutNetworking_Example-dummy.m"; sourceTree = "<group>"; };
-		661971FF50638DD95ABBDD53F622E1B6 /* DonutNetworking.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = DonutNetworking.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		6B65CA30AFB1B0A78A874CB2E7FE9456 /* DonutNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DonutNetworking.release.xcconfig; sourceTree = "<group>"; };
-		6C60CB9617B480D7CD09BD95A540CD89 /* DonutNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DonutNetworking-dummy.m"; sourceTree = "<group>"; };
 		732AF55EA0E050B24F32811C21DE3B8F /* Pods-DonutNetworking_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DonutNetworking_Tests-Info.plist"; sourceTree = "<group>"; };
+		7A7C440FB195D82DDCF317F23A89B968 /* DonutNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DonutNetworking.release.xcconfig; sourceTree = "<group>"; };
 		82B18710B4AE360209D6D675D2572E50 /* Pods-DonutNetworking_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DonutNetworking_Tests-umbrella.h"; sourceTree = "<group>"; };
-		8401BD55251AE08533551AEE8278D2D0 /* DonutNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DonutNetworking-Info.plist"; sourceTree = "<group>"; };
-		8DB8565B47B94413129383A43909E3FC /* DonutNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DonutNetworking.debug.xcconfig; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B2C1FCF11C2851E20785A4B04A6AF0F6 /* DonutNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DonutNetworking-umbrella.h"; sourceTree = "<group>"; };
+		990347A34EA1E493C3E83483BA85C4A6 /* DonutNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DonutNetworking.m; path = DonutNetworking/Classes/DonutNetworking.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E53EC8D80CBDB47F07FD4C8A8E9D18B /* DonutNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DonutNetworking.h; path = DonutNetworking/Classes/DonutNetworking.h; sourceTree = "<group>"; };
+		9EB77CAC7185436FF9C9FC3016BDB87B /* DonutNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DonutNetworking-umbrella.h"; sourceTree = "<group>"; };
 		B5106FAF6D1EEDBB37F4CB7E38E999A1 /* Pods-DonutNetworking_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DonutNetworking_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B87472305A62AF6A3677D71712466B8F /* DonutNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DonutNetworking-prefix.pch"; sourceTree = "<group>"; };
 		BD967484B3C083520B670547B3B82E89 /* Pods-DonutNetworking_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DonutNetworking_Tests.modulemap"; sourceTree = "<group>"; };
+		C1AEAE4D99E99FD7E12D876839EB70A8 /* DonutNetworking.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DonutNetworking.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C3BF7E50B896680D3D7BC7770E9E2944 /* Pods-DonutNetworking_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DonutNetworking_Tests-dummy.m"; sourceTree = "<group>"; };
-		CA95B669D575F9DE037258859521F0B5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		DB3C1A0E73ABCBF51A57D1D9B0BDA8A2 /* DonutNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DonutNetworking.modulemap; sourceTree = "<group>"; };
 		DECD39421F4CA72E666662167DD74456 /* Pods-DonutNetworking_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DonutNetworking_Example.modulemap"; sourceTree = "<group>"; };
 		E1F94EE9FC07681C9D455E8A29DEF6D2 /* Pods-DonutNetworking_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DonutNetworking_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E34E69D7AA72F46156C5EA342DD32877 /* Pods-DonutNetworking_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DonutNetworking_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E6446BCCD9AB5E1D5A2E990248AD3CE3 /* Pods-DonutNetworking_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DonutNetworking_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E8643BE3624D75E4055A197C8EAAE9E2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F64D303882FFBC8442AC1E916A9A9D67 /* DNNetWorking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DNNetWorking.m; path = DonutNetworking/Classes/DNNetWorking.m; sourceTree = "<group>"; };
 		F69DC3425A37A620C278D51B41E4402A /* Pods-DonutNetworking_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DonutNetworking_Example-Info.plist"; sourceTree = "<group>"; };
-		FE5342534BAD1D8E33F61962C0C6295E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		FF7CE5F253EA37E3591F4F30E2986769 /* Pods_DonutNetworking_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DonutNetworking_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF7CE5F253EA37E3591F4F30E2986769 /* Pods_DonutNetworking_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DonutNetworking_Tests.framework; path = "Pods-DonutNetworking_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3D7029D18AF66D5737105E5BAB222C49 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6F965579ECA7CBB297FCEF29E9A6CD08 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		54E4DD8F86B8A7F086D61FE24222F514 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				552E6094BDD6479BE64790E940B713C5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6DD311E24BCBD79872A3FD4EEFCBFAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B0564150ADA27EAFCB2229205774843 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,12 +106,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0017F7A449C2E60BA5AB362610D83A27 /* Development Pods */ = {
+		0BE64134CA8BEF98846537B3C9023B15 /* DonutNetworking */ = {
 			isa = PBXGroup;
 			children = (
-				B6C8825B28D549202A26D9D047612BF4 /* DonutNetworking */,
+				34EB72A294E1601CF938AFF59E3424D8 /* DNNetWorking.h */,
+				F64D303882FFBC8442AC1E916A9A9D67 /* DNNetWorking.m */,
+				9E53EC8D80CBDB47F07FD4C8A8E9D18B /* DonutNetworking.h */,
+				990347A34EA1E493C3E83483BA85C4A6 /* DonutNetworking.m */,
+				D6D1927AC47F1F22A54B80C49A815541 /* Pod */,
+				A50D6C69F4350F761D3E8795FDD6B439 /* Support Files */,
 			);
-			name = "Development Pods";
+			name = DonutNetworking;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		277F08A11121B5280F14D01B9F9465AB /* Pods-DonutNetworking_Tests */ = {
@@ -145,26 +155,27 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A02183C3207227FF00FF0B1A07865573 /* Pod */ = {
+		A50D6C69F4350F761D3E8795FDD6B439 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				661971FF50638DD95ABBDD53F622E1B6 /* DonutNetworking.podspec */,
-				FE5342534BAD1D8E33F61962C0C6295E /* LICENSE */,
-				CA95B669D575F9DE037258859521F0B5 /* README.md */,
+				4B2C8FC46CFB115C3EE4D9D3DFA2E0E2 /* DonutNetworking.modulemap */,
+				097E51DF1F1CBC01E6EF8F18CCF99C75 /* DonutNetworking-dummy.m */,
+				4B4F5CE466BAFE8CACC8659463EB773B /* DonutNetworking-Info.plist */,
+				061E7CEA76B8B4E3AFA60CB45AE99855 /* DonutNetworking-prefix.pch */,
+				9EB77CAC7185436FF9C9FC3016BDB87B /* DonutNetworking-umbrella.h */,
+				39DDD5FEC24DEC078B89E0BA0D026676 /* DonutNetworking.debug.xcconfig */,
+				7A7C440FB195D82DDCF317F23A89B968 /* DonutNetworking.release.xcconfig */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DonutNetworking";
 			sourceTree = "<group>";
 		};
-		B6C8825B28D549202A26D9D047612BF4 /* DonutNetworking */ = {
+		B90E542CFC0CF2F7BFD1FD0D97836255 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A02183C3207227FF00FF0B1A07865573 /* Pod */,
-				C7E8F1F43FB58525C1436FA6C986D19F /* Support Files */,
-				1A4F7ED52573990800CA86AF /* DNNetWorking.h */,
-				1A4F7ED62573990800CA86AF /* DNNetWorking.m */,
+				0BE64134CA8BEF98846537B3C9023B15 /* DonutNetworking */,
 			);
-			name = DonutNetworking;
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -175,26 +186,11 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C7E8F1F43FB58525C1436FA6C986D19F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				DB3C1A0E73ABCBF51A57D1D9B0BDA8A2 /* DonutNetworking.modulemap */,
-				6C60CB9617B480D7CD09BD95A540CD89 /* DonutNetworking-dummy.m */,
-				8401BD55251AE08533551AEE8278D2D0 /* DonutNetworking-Info.plist */,
-				B87472305A62AF6A3677D71712466B8F /* DonutNetworking-prefix.pch */,
-				B2C1FCF11C2851E20785A4B04A6AF0F6 /* DonutNetworking-umbrella.h */,
-				8DB8565B47B94413129383A43909E3FC /* DonutNetworking.debug.xcconfig */,
-				6B65CA30AFB1B0A78A874CB2E7FE9456 /* DonutNetworking.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/DonutNetworking";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				0017F7A449C2E60BA5AB362610D83A27 /* Development Pods */,
+				B90E542CFC0CF2F7BFD1FD0D97836255 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				3D91C51A84075B9711A31F69506D173B /* Products */,
 				3CEDB5EBBBBF77E308AECC55A24D422E /* Targets Support Files */,
@@ -207,6 +203,16 @@
 				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6D1927AC47F1F22A54B80C49A815541 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C1AEAE4D99E99FD7E12D876839EB70A8 /* DonutNetworking.podspec */,
+				E8643BE3624D75E4055A197C8EAAE9E2 /* LICENSE */,
+				47F1E0E72FF9BFE798D8116CA1C7343C /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		F9405ABC0D519C94C9175A8202CD1BE5 /* Pods-DonutNetworking_Example */ = {
@@ -245,12 +251,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E331CFD86DB0856DCA70136515BBFCDC /* Headers */ = {
+		E2014BF17A810336C3A368227858BE99 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A4F7ED72573990800CA86AF /* DNNetWorking.h in Headers */,
-				6DD1F5E5D89D50949735F71DF43FC0F1 /* DonutNetworking-umbrella.h in Headers */,
+				2DF348A6D99AC2644F0AAA5F8196468E /* DNNetWorking.h in Headers */,
+				068661908C66ABDB71CD6B609B105246 /* DonutNetworking-umbrella.h in Headers */,
+				250EB6B72FDF8F39B114651741BB3E26 /* DonutNetworking.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,12 +266,12 @@
 /* Begin PBXNativeTarget section */
 		48DB4B0FC713B1BE603597A666F05022 /* DonutNetworking */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C3C2BFA9E3C830D423D2D258D37CA458 /* Build configuration list for PBXNativeTarget "DonutNetworking" */;
+			buildConfigurationList = D04D91C918B4EBEC8EFF7ACEC8C23ED2 /* Build configuration list for PBXNativeTarget "DonutNetworking" */;
 			buildPhases = (
-				E331CFD86DB0856DCA70136515BBFCDC /* Headers */,
-				B09A5EFD3C7345DFAD1D52645FB23544 /* Sources */,
-				3D7029D18AF66D5737105E5BAB222C49 /* Frameworks */,
-				5153563C64337ABC4B3992FC7978BAEE /* Resources */,
+				E2014BF17A810336C3A368227858BE99 /* Headers */,
+				325F6617A02E8F1A8467B3820AE18A8A /* Sources */,
+				C6DD311E24BCBD79872A3FD4EEFCBFAB /* Frameworks */,
+				6A8BE338F5EF3E591010C2814048B259 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -350,7 +357,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5153563C64337ABC4B3992FC7978BAEE /* Resources */ = {
+		6A8BE338F5EF3E591010C2814048B259 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -375,20 +382,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		325F6617A02E8F1A8467B3820AE18A8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9690B2A37DD1274F2CEA5896ED4A9FC /* DNNetWorking.m in Sources */,
+				00E241CDB0C9BE0FC8D5B6709A4FC1F9 /* DonutNetworking-dummy.m in Sources */,
+				A4AAF13552DBF1388A61DB357AB654BF /* DonutNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		384E8F5A89FE57CB677E847B63B547CE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DA70714F99D56B409CC4DE7A58040BA6 /* Pods-DonutNetworking_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B09A5EFD3C7345DFAD1D52645FB23544 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B91D6A6EA7FDE6E9DCC9DAAC47F9FFC9 /* DonutNetworking-dummy.m in Sources */,
-				1A4F7ED82573990800CA86AF /* DNNetWorking.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +418,37 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		40F806BE79B605E5001F07B6486ABBFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39DDD5FEC24DEC078B89E0BA0D026676 /* DonutNetworking.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DonutNetworking/DonutNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DonutNetworking/DonutNetworking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DonutNetworking/DonutNetworking.modulemap";
+				PRODUCT_MODULE_NAME = DonutNetworking;
+				PRODUCT_NAME = DonutNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -463,7 +502,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -501,6 +541,38 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		74C2FF9E513174306B5CB7F821504517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A7C440FB195D82DDCF317F23A89B968 /* DonutNetworking.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DonutNetworking/DonutNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DonutNetworking/DonutNetworking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DonutNetworking/DonutNetworking.modulemap";
+				PRODUCT_MODULE_NAME = DonutNetworking;
+				PRODUCT_NAME = DonutNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -600,69 +672,6 @@
 			};
 			name = Release;
 		};
-		B4BD4B18D7BA3E31AA93580A73FD0E9D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B65CA30AFB1B0A78A874CB2E7FE9456 /* DonutNetworking.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DonutNetworking/DonutNetworking-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DonutNetworking/DonutNetworking-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DonutNetworking/DonutNetworking.modulemap";
-				PRODUCT_MODULE_NAME = DonutNetworking;
-				PRODUCT_NAME = DonutNetworking;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D18C364771002EA68E261F979835B0A0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8DB8565B47B94413129383A43909E3FC /* DonutNetworking.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DonutNetworking/DonutNetworking-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DonutNetworking/DonutNetworking-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DonutNetworking/DonutNetworking.modulemap";
-				PRODUCT_MODULE_NAME = DonutNetworking;
-				PRODUCT_NAME = DonutNetworking;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		E73BB952BD9C3CE52BED2B8DF2ECCBD3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5B73C506CB7AC860F5F53C66CC4AD89F /* Pods-DonutNetworking_Example.release.xcconfig */;
@@ -760,11 +769,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C3C2BFA9E3C830D423D2D258D37CA458 /* Build configuration list for PBXNativeTarget "DonutNetworking" */ = {
+		D04D91C918B4EBEC8EFF7ACEC8C23ED2 /* Build configuration list for PBXNativeTarget "DonutNetworking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D18C364771002EA68E261F979835B0A0 /* Debug */,
-				B4BD4B18D7BA3E31AA93580A73FD0E9D /* Release */,
+				40F806BE79B605E5001F07B6486ABBFB /* Debug */,
+				74C2FF9E513174306B5CB7F821504517 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
